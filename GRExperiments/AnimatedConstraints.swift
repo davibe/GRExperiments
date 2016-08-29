@@ -57,15 +57,26 @@ class AnimatedConstraints: UIView {
     
     func onTap(sender: UIButton) {
         // activate/deactivate constraint
-        self.subviewTopAnchor.active = !self.subviewTopAnchor.active
-        self.subviewBottomAnchor.active = !self.subviewBottomAnchor.active
+        // order of operations is important to avoid conflict with height constrain
+        if self.subviewBottomAnchor.active {
+            self.subviewBottomAnchor.active = !self.subviewBottomAnchor.active
+            self.subviewTopAnchor.active = !self.subviewTopAnchor.active
+        } else {
+            self.subviewTopAnchor.active = !self.subviewTopAnchor.active
+            self.subviewBottomAnchor.active = !self.subviewBottomAnchor.active
+        }
 
         // change constraints constants
         subviewHeightAnchor.constant += 10
         
         // tell the view to do it in an animated fashion :)
-        UIView.animateWithDuration(0.3) {
+
+        UIView.animateWithDuration(1, delay: 0, options: .AllowUserInteraction, animations: {
             self.subview.layoutIfNeeded()
+            }) { (Bool) in
+                
         }
+        
+        
     }
 }

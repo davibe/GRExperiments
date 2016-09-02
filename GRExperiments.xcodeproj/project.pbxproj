@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0D1381831D6C9B1E00E694BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1381821D6C9B1E00E694BB /* AppDelegate.swift */; };
-		0D1381851D6C9B1E00E694BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1381841D6C9B1E00E694BB /* ViewController.swift */; };
 		0D13818B1D6C9B1E00E694BB /* GRExperiments.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D1381891D6C9B1E00E694BB /* GRExperiments.xcdatamodeld */; };
 		0D13818D1D6C9B1E00E694BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D13818C1D6C9B1E00E694BB /* Assets.xcassets */; };
 		0D1381901D6C9B1E00E694BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D13818E1D6C9B1E00E694BB /* LaunchScreen.storyboard */; };
@@ -17,6 +16,9 @@
 		0D1381B41D6C9B2700E694BB /* LayerCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1381B31D6C9B2700E694BB /* LayerCircle.swift */; };
 		0D1381B61D6C9B2F00E694BB /* UILabelAlignBottomExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1381B51D6C9B2F00E694BB /* UILabelAlignBottomExample.swift */; };
 		0D6E3DCD1D7448610000226F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6E3DCC1D7448610000226F /* Main.storyboard */; };
+		0D7BA8671D786A2B009A2D10 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7BA8661D786A2B009A2D10 /* CollectionViewDataSource.swift */; };
+		0D977FFD1D796DE0004CF138 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D977FFC1D796DE0004CF138 /* CollectionViewCell.swift */; };
+		0D977FFF1D79AC7E004CF138 /* CollectionFlowLayoutPaged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D977FFE1D79AC7E004CF138 /* CollectionFlowLayoutPaged.swift */; };
 		0DBFDCD71D6D802B00E311A3 /* AnimatedConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBFDCD61D6D802B00E311A3 /* AnimatedConstraints.swift */; };
 		0DCC239F1D742A720038056E /* ResizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC239E1D742A720038056E /* ResizableView.swift */; };
 		3DCCE32196DE06C3415DF0D2 /* Pods_GRExperiments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECF5C29778B0A477837B61D /* Pods_GRExperiments.framework */; };
@@ -42,7 +44,6 @@
 /* Begin PBXFileReference section */
 		0D13817F1D6C9B1E00E694BB /* GRExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D1381821D6C9B1E00E694BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D1381841D6C9B1E00E694BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D13818A1D6C9B1E00E694BB /* GRExperiments.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GRExperiments.xcdatamodel; sourceTree = "<group>"; };
 		0D13818C1D6C9B1E00E694BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D13818F1D6C9B1E00E694BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +57,9 @@
 		0D1381B31D6C9B2700E694BB /* LayerCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerCircle.swift; sourceTree = "<group>"; };
 		0D1381B51D6C9B2F00E694BB /* UILabelAlignBottomExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelAlignBottomExample.swift; sourceTree = "<group>"; };
 		0D6E3DCC1D7448610000226F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0D7BA8661D786A2B009A2D10 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		0D977FFC1D796DE0004CF138 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		0D977FFE1D79AC7E004CF138 /* CollectionFlowLayoutPaged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionFlowLayoutPaged.swift; sourceTree = "<group>"; };
 		0DBFDCD61D6D802B00E311A3 /* AnimatedConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedConstraints.swift; sourceTree = "<group>"; };
 		0DCC239E1D742A720038056E /* ResizableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizableView.swift; sourceTree = "<group>"; };
 		AB86A035BD48B2B26295BD7C /* Pods-GRExperiments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRExperiments.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRExperiments/Pods-GRExperiments.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,17 +118,19 @@
 		0D1381811D6C9B1E00E694BB /* GRExperiments */ = {
 			isa = PBXGroup;
 			children = (
+				0D1381821D6C9B1E00E694BB /* AppDelegate.swift */,
 				0D1381B51D6C9B2F00E694BB /* UILabelAlignBottomExample.swift */,
 				0D1381B31D6C9B2700E694BB /* LayerCircle.swift */,
-				0D1381821D6C9B1E00E694BB /* AppDelegate.swift */,
-				0D1381841D6C9B1E00E694BB /* ViewController.swift */,
+				0DBFDCD61D6D802B00E311A3 /* AnimatedConstraints.swift */,
+				0DCC239E1D742A720038056E /* ResizableView.swift */,
 				0D6E3DCC1D7448610000226F /* Main.storyboard */,
 				0D13818C1D6C9B1E00E694BB /* Assets.xcassets */,
 				0D13818E1D6C9B1E00E694BB /* LaunchScreen.storyboard */,
 				0D1381911D6C9B1E00E694BB /* Info.plist */,
 				0D1381891D6C9B1E00E694BB /* GRExperiments.xcdatamodeld */,
-				0DBFDCD61D6D802B00E311A3 /* AnimatedConstraints.swift */,
-				0DCC239E1D742A720038056E /* ResizableView.swift */,
+				0D7BA8661D786A2B009A2D10 /* CollectionViewDataSource.swift */,
+				0D977FFC1D796DE0004CF138 /* CollectionViewCell.swift */,
+				0D977FFE1D79AC7E004CF138 /* CollectionFlowLayoutPaged.swift */,
 			);
 			path = GRExperiments;
 			sourceTree = "<group>";
@@ -347,13 +353,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D1381851D6C9B1E00E694BB /* ViewController.swift in Sources */,
 				0D1381B61D6C9B2F00E694BB /* UILabelAlignBottomExample.swift in Sources */,
 				0D1381831D6C9B1E00E694BB /* AppDelegate.swift in Sources */,
+				0D977FFD1D796DE0004CF138 /* CollectionViewCell.swift in Sources */,
 				0D13818B1D6C9B1E00E694BB /* GRExperiments.xcdatamodeld in Sources */,
+				0D977FFF1D79AC7E004CF138 /* CollectionFlowLayoutPaged.swift in Sources */,
 				0D1381B41D6C9B2700E694BB /* LayerCircle.swift in Sources */,
 				0DBFDCD71D6D802B00E311A3 /* AnimatedConstraints.swift in Sources */,
 				0DCC239F1D742A720038056E /* ResizableView.swift in Sources */,
+				0D7BA8671D786A2B009A2D10 /* CollectionViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

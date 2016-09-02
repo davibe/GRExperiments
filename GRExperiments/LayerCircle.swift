@@ -12,7 +12,7 @@ import UIKit
 // IDENTICAL TO THE CUSTOM CIRCLE VIEW BUT USING CALAYERS AND ANIMATED ON PROGRESS CHANGE
 
 @IBDesignable
-class LayerCircle: UIView {
+class LayerCircle: UICollectionViewCell {
     
     // Example: Animated circular progress using Core Animation
     
@@ -97,7 +97,7 @@ class LayerCircle: UIView {
     
     private func animateCircle() {
         let animation = CABasicAnimation(keyPath: "strokeEnd")
-        animation.duration = 1.0
+        animation.duration = 10.0
         animation.fromValue = 0
         animation.toValue = progress
         animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)

@@ -46,7 +46,6 @@ class AnimatedConstraints: UIView {
         subviewHeightAnchor = subview.heightAnchor.constraintEqualToConstant(50)
         subviewHeightAnchor.active = true
         
-        
         subviewTopAnchor = subview.topAnchor.constraintEqualToAnchor(self.topAnchor)
         subviewTopAnchor.active = true
         

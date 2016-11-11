@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class ResizableView: UIButton {
+open class ResizableView: UIButton {
 
     var expanded = false
     var heightConstrain:NSLayoutConstraint!
@@ -24,26 +24,26 @@ public class ResizableView: UIButton {
     }
         
     func initialize() {
-        self.backgroundColor = UIColor.redColor()
-        self.layer.borderColor = UIColor.grayColor().CGColor
+        self.backgroundColor = UIColor.red
+        self.layer.borderColor = UIColor.gray.cgColor
         self.layer.borderWidth = 1
         self.translatesAutoresizingMaskIntoConstraints = false
-        self.widthAnchor.constraintEqualToConstant(100).active = true
-        self.heightConstrain = self.heightAnchor.constraintEqualToConstant(100)
-        self.heightConstrain.active = true
+        self.widthAnchor.constraint(equalToConstant: 100).isActive = true
+        self.heightConstrain = self.heightAnchor.constraint(equalToConstant: 100)
+        self.heightConstrain.isActive = true
         self.expanded = false
-        self.addTarget(self, action: #selector(onClick), forControlEvents: .TouchUpInside)
+        self.addTarget(self, action: #selector(onClick), for: .touchUpInside)
     }
     
-    func onClick(sender:UIButton) {
+    func onClick(_ sender:UIButton) {
         self.expanded = !self.expanded
-        UIView.animateWithDuration(0.3) {
+        UIView.animate(withDuration: 0.3, animations: {
             if self.expanded {
                 self.heightConstrain.constant = 200
             } else {
                 self.heightConstrain.constant = 100
             }
             self.layoutIfNeeded()
-        }
+        }) 
     }
 }

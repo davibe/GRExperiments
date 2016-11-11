@@ -9,18 +9,18 @@
 import UIKit
 import Foundation
 
-public class CollectionViewDataSource: NSObject, UICollectionViewDataSource {
+open class CollectionViewDataSource: NSObject, UICollectionViewDataSource {
     var colletionFlowLayoutPaged = CollectionFlowLayoutPaged()
     
-    public func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    open func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 33
     }
     
-    public func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("collection-view-cell", forIndexPath: indexPath) as! CollectionViewCell
+    open func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collection-view-cell", for: indexPath) as! CollectionViewCell
         cell.label.text = " \(indexPath.section):\(indexPath.row)"
         
-        cell.widthAnchor.constraintEqualToConstant(200)
+        cell.widthAnchor.constraint(equalToConstant: 200)
         cell.layoutIfNeeded()
         
         return cell

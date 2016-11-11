@@ -36,13 +36,13 @@ import SnapKit
         self.initialization()
     }
     
-    private func initialization() {
-        label.font = UIFont.boldSystemFontOfSize(15)
+    fileprivate func initialization() {
+        label.font = UIFont.boldSystemFont(ofSize: 15)
         label.text = "Very Long Text. Very Long Text. Very Long Text. Very Long Text. Very Long Text. Very Long Text. "
         label.numberOfLines = 2
         label.layer.borderWidth = 1.0
-        label.layer.borderColor = UIColor.grayColor().CGColor
-        label.backgroundColor = UIColor.whiteColor()
+        label.layer.borderColor = UIColor.gray.cgColor
+        label.backgroundColor = UIColor.white
         self.addSubview(label)
         
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -52,18 +52,18 @@ import SnapKit
             make.width.equalTo(150)
         }
         
-        labelShort.font = UIFont.boldSystemFontOfSize(15)
+        labelShort.font = UIFont.boldSystemFont(ofSize: 15)
         labelShort.text = "Short Text"
         labelShort.numberOfLines = 2
         labelShort.layer.borderWidth = 1.0
-        labelShort.layer.borderColor = UIColor.grayColor().CGColor
-        labelShort.backgroundColor = UIColor.whiteColor()
+        labelShort.layer.borderColor = UIColor.gray.cgColor
+        labelShort.backgroundColor = UIColor.white
         self.addSubview(labelShort)
         
         labelShort.translatesAutoresizingMaskIntoConstraints = false
-        labelShort.leftAnchor.constraintEqualToAnchor(label.rightAnchor).active = true
-        labelShort.bottomAnchor.constraintEqualToAnchor(self.bottomAnchor).active = true
-        labelShort.widthAnchor.constraintEqualToConstant(100).active = true
+        labelShort.leftAnchor.constraint(equalTo: label.rightAnchor).isActive = true
+        labelShort.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
+        labelShort.widthAnchor.constraint(equalToConstant: 100).isActive = true
         
     }
     

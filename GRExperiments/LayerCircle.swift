@@ -18,16 +18,16 @@ class LayerCircle: UICollectionViewCell {
     
     // inspectables
     
-    @IBInspectable var bgCircleColor: UIColor = UIColor.blackColor()
+    @IBInspectable var bgCircleColor: UIColor = UIColor.black
     @IBInspectable var bgCircleLineWidth: CGFloat = 1.0
-    @IBInspectable var circleColor: UIColor = UIColor.greenColor()
+    @IBInspectable var circleColor: UIColor = UIColor.green
     @IBInspectable var circleLineWidth: CGFloat = 5.0
     @IBInspectable var progress: CGFloat = 0.5 { didSet { animateCircle() } }
     
     // pre-allocate layers (or subviews)
     
-    private var bgCircleLayer: CAShapeLayer! = CAShapeLayer()
-    private var circleLayer: CAShapeLayer! = CAShapeLayer()
+    fileprivate var bgCircleLayer: CAShapeLayer! = CAShapeLayer()
+    fileprivate var circleLayer: CAShapeLayer! = CAShapeLayer()
     
     // initialize
     
@@ -62,7 +62,7 @@ class LayerCircle: UICollectionViewCell {
         let center = CGPoint(x: frame.size.width / 2, y: frame.size.height / 2)
         let radius = min(frame.size.width / 2, frame.size.height / 2) - circleLineWidth / 2
         
-        func degreesToRadians(angle: Int) -> CGFloat {
+        func degreesToRadians(_ angle: Int) -> CGFloat {
             return CGFloat(angle) * CGFloat(M_PI) / 180
         }
         
@@ -74,9 +74,9 @@ class LayerCircle: UICollectionViewCell {
             clockwise: true
         )
         
-        bgCircleLayer.path = bgCircle.CGPath
-        bgCircleLayer.fillColor = UIColor.clearColor().CGColor
-        bgCircleLayer.strokeColor = bgCircleColor.CGColor
+        bgCircleLayer.path = bgCircle.cgPath
+        bgCircleLayer.fillColor = UIColor.clear.cgColor
+        bgCircleLayer.strokeColor = bgCircleColor.cgColor
         bgCircleLayer.lineWidth = bgCircleLineWidth;
         bgCircleLayer.strokeEnd = 1.0
         
@@ -88,20 +88,20 @@ class LayerCircle: UICollectionViewCell {
             clockwise: true
         )
         
-        circleLayer.path = circle.CGPath
-        circleLayer.fillColor = UIColor.clearColor().CGColor
-        circleLayer.strokeColor = circleColor.CGColor
+        circleLayer.path = circle.cgPath
+        circleLayer.fillColor = UIColor.clear.cgColor
+        circleLayer.strokeColor = circleColor.cgColor
         circleLayer.lineWidth = circleLineWidth;
         circleLayer.strokeEnd = 0.0
     }
     
-    private func animateCircle() {
+    fileprivate func animateCircle() {
         let animation = CABasicAnimation(keyPath: "strokeEnd")
         animation.duration = 10.0
         animation.fromValue = 0
         animation.toValue = progress
         animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
         circleLayer.strokeEnd = progress
-        circleLayer.addAnimation(animation, forKey: "animateCircle")
+        circleLayer.add(animation, forKey: "animateCircle")
     }
 }

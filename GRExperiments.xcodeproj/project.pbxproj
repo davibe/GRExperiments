@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083B8578BB9AC0723EAF34C6 /* Pods_GRExperimentsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90059C063F60566F853E687 /* Pods_GRExperimentsUITests.framework */; };
 		0D1381831D6C9B1E00E694BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1381821D6C9B1E00E694BB /* AppDelegate.swift */; };
 		0D13818B1D6C9B1E00E694BB /* GRExperiments.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D1381891D6C9B1E00E694BB /* GRExperiments.xcdatamodeld */; };
 		0D13818D1D6C9B1E00E694BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D13818C1D6C9B1E00E694BB /* Assets.xcassets */; };
@@ -19,9 +20,12 @@
 		0D7BA8671D786A2B009A2D10 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7BA8661D786A2B009A2D10 /* CollectionViewDataSource.swift */; };
 		0D977FFD1D796DE0004CF138 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D977FFC1D796DE0004CF138 /* CollectionViewCell.swift */; };
 		0D977FFF1D79AC7E004CF138 /* CollectionFlowLayoutPaged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D977FFE1D79AC7E004CF138 /* CollectionFlowLayoutPaged.swift */; };
+		0DAB61611DD5A3BB00506A78 /* WhiteUIActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB61601DD5A3BB00506A78 /* WhiteUIActivityViewController.swift */; };
+		0DAB61631DD5A4B700506A78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB61621DD5A4B700506A78 /* ViewController.swift */; };
 		0DBFDCD71D6D802B00E311A3 /* AnimatedConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBFDCD61D6D802B00E311A3 /* AnimatedConstraints.swift */; };
 		0DCC239F1D742A720038056E /* ResizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC239E1D742A720038056E /* ResizableView.swift */; };
-		3DCCE32196DE06C3415DF0D2 /* Pods_GRExperiments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECF5C29778B0A477837B61D /* Pods_GRExperiments.framework */; };
+		82E734AD15C2747A25A61205 /* Pods_GRExperiments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A85BFB49C2D26FF3B8CF395 /* Pods_GRExperiments.framework */; };
+		9E072244813EA76A3D20B623 /* Pods_GRExperimentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06103AF2DC986967D84E61A /* Pods_GRExperimentsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +64,19 @@
 		0D7BA8661D786A2B009A2D10 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
 		0D977FFC1D796DE0004CF138 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		0D977FFE1D79AC7E004CF138 /* CollectionFlowLayoutPaged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionFlowLayoutPaged.swift; sourceTree = "<group>"; };
+		0DAB61601DD5A3BB00506A78 /* WhiteUIActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteUIActivityViewController.swift; sourceTree = "<group>"; };
+		0DAB61621DD5A4B700506A78 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0DBFDCD61D6D802B00E311A3 /* AnimatedConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedConstraints.swift; sourceTree = "<group>"; };
 		0DCC239E1D742A720038056E /* ResizableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizableView.swift; sourceTree = "<group>"; };
-		AB86A035BD48B2B26295BD7C /* Pods-GRExperiments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRExperiments.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRExperiments/Pods-GRExperiments.release.xcconfig"; sourceTree = "<group>"; };
-		BCC36195C4A832FDE5F27BD4 /* Pods-GRExperiments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRExperiments.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GRExperiments/Pods-GRExperiments.debug.xcconfig"; sourceTree = "<group>"; };
-		FECF5C29778B0A477837B61D /* Pods_GRExperiments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRExperiments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		124264F9597C0AB3455B5F1A /* Pods-GRExperiments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRExperiments.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GRExperiments/Pods-GRExperiments.debug.xcconfig"; sourceTree = "<group>"; };
+		2A85BFB49C2D26FF3B8CF395 /* Pods_GRExperiments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRExperiments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DD000DB68C713AA28130E0 /* Pods-GRExperiments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRExperiments.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRExperiments/Pods-GRExperiments.release.xcconfig"; sourceTree = "<group>"; };
+		42FDE3997992024B0D179555 /* Pods-GRExperimentsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRExperimentsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GRExperimentsUITests/Pods-GRExperimentsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9023D1181FDCF58AB40DA7DD /* Pods-GRExperimentsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRExperimentsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRExperimentsTests/Pods-GRExperimentsTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B97FA32F4A6BF8D1FE77551 /* Pods-GRExperimentsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRExperimentsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GRExperimentsTests/Pods-GRExperimentsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A06103AF2DC986967D84E61A /* Pods_GRExperimentsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRExperimentsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90059C063F60566F853E687 /* Pods_GRExperimentsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRExperimentsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E05B64753B859E1C50DB23 /* Pods-GRExperimentsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRExperimentsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRExperimentsUITests/Pods-GRExperimentsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DCCE32196DE06C3415DF0D2 /* Pods_GRExperiments.framework in Frameworks */,
+				82E734AD15C2747A25A61205 /* Pods_GRExperiments.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E072244813EA76A3D20B623 /* Pods_GRExperimentsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083B8578BB9AC0723EAF34C6 /* Pods_GRExperimentsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +114,8 @@
 				0D1381991D6C9B1E00E694BB /* GRExperimentsTests */,
 				0D1381A41D6C9B1E00E694BB /* GRExperimentsUITests */,
 				0D1381801D6C9B1E00E694BB /* Products */,
-				7132A0D4E620160A176E38B5 /* Pods */,
-				A0C544075D0936ED2D8F5739 /* Frameworks */,
+				1285A837DF872BC949D20E5C /* Pods */,
+				5E5B7867120278C00F52845A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +145,8 @@
 				0D7BA8661D786A2B009A2D10 /* CollectionViewDataSource.swift */,
 				0D977FFC1D796DE0004CF138 /* CollectionViewCell.swift */,
 				0D977FFE1D79AC7E004CF138 /* CollectionFlowLayoutPaged.swift */,
+				0DAB61601DD5A3BB00506A78 /* WhiteUIActivityViewController.swift */,
+				0DAB61621DD5A4B700506A78 /* ViewController.swift */,
 			);
 			path = GRExperiments;
 			sourceTree = "<group>";
@@ -153,19 +169,25 @@
 			path = GRExperimentsUITests;
 			sourceTree = "<group>";
 		};
-		7132A0D4E620160A176E38B5 /* Pods */ = {
+		1285A837DF872BC949D20E5C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BCC36195C4A832FDE5F27BD4 /* Pods-GRExperiments.debug.xcconfig */,
-				AB86A035BD48B2B26295BD7C /* Pods-GRExperiments.release.xcconfig */,
+				124264F9597C0AB3455B5F1A /* Pods-GRExperiments.debug.xcconfig */,
+				41DD000DB68C713AA28130E0 /* Pods-GRExperiments.release.xcconfig */,
+				9B97FA32F4A6BF8D1FE77551 /* Pods-GRExperimentsTests.debug.xcconfig */,
+				9023D1181FDCF58AB40DA7DD /* Pods-GRExperimentsTests.release.xcconfig */,
+				42FDE3997992024B0D179555 /* Pods-GRExperimentsUITests.debug.xcconfig */,
+				C9E05B64753B859E1C50DB23 /* Pods-GRExperimentsUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A0C544075D0936ED2D8F5739 /* Frameworks */ = {
+		5E5B7867120278C00F52845A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FECF5C29778B0A477837B61D /* Pods_GRExperiments.framework */,
+				2A85BFB49C2D26FF3B8CF395 /* Pods_GRExperiments.framework */,
+				A06103AF2DC986967D84E61A /* Pods_GRExperimentsTests.framework */,
+				C90059C063F60566F853E687 /* Pods_GRExperimentsUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,12 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D1381AA1D6C9B1E00E694BB /* Build configuration list for PBXNativeTarget "GRExperiments" */;
 			buildPhases = (
-				3C1F4BFCF07A31C01A575F0E /* Check Pods Manifest.lock */,
+				247A27D905C992DB93E6BEAA /* [CP] Check Pods Manifest.lock */,
 				0D13817B1D6C9B1E00E694BB /* Sources */,
 				0D13817C1D6C9B1E00E694BB /* Frameworks */,
 				0D13817D1D6C9B1E00E694BB /* Resources */,
-				EC1F6E8E0E19B0C5B0FF6B29 /* Embed Pods Frameworks */,
-				818D5EF4F25145779CEEC0DC /* Copy Pods Resources */,
+				C0E56371175885513F96DEFD /* [CP] Embed Pods Frameworks */,
+				ABF6C7B0887834158744F014 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D1381AD1D6C9B1E00E694BB /* Build configuration list for PBXNativeTarget "GRExperimentsTests" */;
 			buildPhases = (
+				411F9D47EB92DC6F39A940E6 /* [CP] Check Pods Manifest.lock */,
 				0D1381921D6C9B1E00E694BB /* Sources */,
 				0D1381931D6C9B1E00E694BB /* Frameworks */,
 				0D1381941D6C9B1E00E694BB /* Resources */,
+				D4B56AC85C96942DF79C4DA9 /* [CP] Embed Pods Frameworks */,
+				FB3563423257855780E74479 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D1381B01D6C9B1E00E694BB /* Build configuration list for PBXNativeTarget "GRExperimentsUITests" */;
 			buildPhases = (
+				0FCAC8B8654B5C7342BFEFFD /* [CP] Check Pods Manifest.lock */,
 				0D13819D1D6C9B1E00E694BB /* Sources */,
 				0D13819E1D6C9B1E00E694BB /* Frameworks */,
 				0D13819F1D6C9B1E00E694BB /* Resources */,
+				20DEBC42A4C9A6F97B4D60C2 /* [CP] Copy Pods Resources */,
+				33869049D781314872EC596A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,13 +270,16 @@
 					0D13817E1D6C9B1E00E694BB = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = JV9YLU7J5H;
+						LastSwiftMigration = 0810;
 					};
 					0D1381951D6C9B1E00E694BB = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 0D13817E1D6C9B1E00E694BB;
 					};
 					0D1381A01D6C9B1E00E694BB = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 0D13817E1D6C9B1E00E694BB;
 					};
 				};
@@ -301,29 +332,89 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3C1F4BFCF07A31C01A575F0E /* Check Pods Manifest.lock */ = {
+		0FCAC8B8654B5C7342BFEFFD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		818D5EF4F25145779CEEC0DC /* Copy Pods Resources */ = {
+		20DEBC42A4C9A6F97B4D60C2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRExperimentsUITests/Pods-GRExperimentsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		247A27D905C992DB93E6BEAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33869049D781314872EC596A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRExperimentsUITests/Pods-GRExperimentsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		411F9D47EB92DC6F39A940E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF6C7B0887834158744F014 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,19 +422,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRExperiments/Pods-GRExperiments-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EC1F6E8E0E19B0C5B0FF6B29 /* Embed Pods Frameworks */ = {
+		C0E56371175885513F96DEFD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRExperiments/Pods-GRExperiments-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4B56AC85C96942DF79C4DA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRExperimentsTests/Pods-GRExperimentsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3563423257855780E74479 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRExperimentsTests/Pods-GRExperimentsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -357,7 +478,9 @@
 				0D1381831D6C9B1E00E694BB /* AppDelegate.swift in Sources */,
 				0D977FFD1D796DE0004CF138 /* CollectionViewCell.swift in Sources */,
 				0D13818B1D6C9B1E00E694BB /* GRExperiments.xcdatamodeld in Sources */,
+				0DAB61631DD5A4B700506A78 /* ViewController.swift in Sources */,
 				0D977FFF1D79AC7E004CF138 /* CollectionFlowLayoutPaged.swift in Sources */,
+				0DAB61611DD5A3BB00506A78 /* WhiteUIActivityViewController.swift in Sources */,
 				0D1381B41D6C9B2700E694BB /* LayerCircle.swift in Sources */,
 				0DBFDCD71D6D802B00E311A3 /* AnimatedConstraints.swift in Sources */,
 				0DCC239F1D742A720038056E /* ResizableView.swift in Sources */,
@@ -495,7 +618,7 @@
 		};
 		0D1381AB1D6C9B1E00E694BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCC36195C4A832FDE5F27BD4 /* Pods-GRExperiments.debug.xcconfig */;
+			baseConfigurationReference = 124264F9597C0AB3455B5F1A /* Pods-GRExperiments.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -505,12 +628,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = it.dadeb.GRExperiments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		0D1381AC1D6C9B1E00E694BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB86A035BD48B2B26295BD7C /* Pods-GRExperiments.release.xcconfig */;
+			baseConfigurationReference = 41DD000DB68C713AA28130E0 /* Pods-GRExperiments.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -520,51 +644,60 @@
 				PRODUCT_BUNDLE_IDENTIFIER = it.dadeb.GRExperiments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		0D1381AE1D6C9B1E00E694BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B97FA32F4A6BF8D1FE77551 /* Pods-GRExperimentsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GRExperimentsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.dadeb.GRExperimentsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRExperiments.app/GRExperiments";
 			};
 			name = Debug;
 		};
 		0D1381AF1D6C9B1E00E694BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9023D1181FDCF58AB40DA7DD /* Pods-GRExperimentsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GRExperimentsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.dadeb.GRExperimentsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRExperiments.app/GRExperiments";
 			};
 			name = Release;
 		};
 		0D1381B11D6C9B1E00E694BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FDE3997992024B0D179555 /* Pods-GRExperimentsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GRExperimentsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.dadeb.GRExperimentsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = GRExperiments;
 			};
 			name = Debug;
 		};
 		0D1381B21D6C9B1E00E694BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E05B64753B859E1C50DB23 /* Pods-GRExperimentsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GRExperimentsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.dadeb.GRExperimentsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = GRExperiments;
 			};
 			name = Release;
